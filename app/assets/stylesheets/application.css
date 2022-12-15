@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+.grid {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: space-between;
+  max-width: 340px;
+}
+.grid li {
+  display: inline-block;
+  background-color: #3498DC;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.play-form label {
+  display: block;
+}
